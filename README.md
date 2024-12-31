@@ -1,2 +1,2 @@
-# uwuify2
-# uwuify2
+# uwuify
+
