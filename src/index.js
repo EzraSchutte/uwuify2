@@ -25,7 +25,7 @@ client.on('messageCreate', (message) => {
     }
     
     let randomNumber = Math.floor(Math.random() * 20);
-    console.log(randomNumber);
+    // console.log(randomNumber); debug reasons
     
     if (randomNumber !== 1) return;
     
