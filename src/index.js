@@ -1,6 +1,6 @@
 const owoify = require('owoify-js').default;
 const { Client, GatewayIntentBits, Events} = require('discord.js');
-const { token } = require('./config.json');
+const { token } = require('../config.json');
 
 const client = new Client({ 
     intents: [
