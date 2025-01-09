@@ -17,7 +17,6 @@ client.once(Events.ClientReady, readyClient => {
 });
 
 client.on('messageCreate', (message) => {
-    
     if(message.author === client.user) return;
     
     for (const link of ["https://", "http://", "www"]) {
